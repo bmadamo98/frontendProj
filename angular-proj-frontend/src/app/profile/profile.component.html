@@ -1,0 +1,67 @@
+<div class="row">
+    <div class="column" style="background-color:rgb(255, 255, 255);">
+      <div id="profileBox">
+        <!--USER ID UPDATES BASED ON ROUTE: GENERIC BOX HERE-->
+            <div id="userImgBox">
+
+            </div>
+        <img alt="My image name" src="./assets/image/banner_img.png">
+        <!--INFORMATION THAT NEEDS TO BE KEPT INSIDE OF ITS OWN 'VIEW', TEMP INFO CURRENTLY IN PLACE-->
+        <div id="usersNames">
+            <h2 id="realName">John Doe</h2>
+            <p id="userName">@john_doe</p>
+        </div>
+        <!--INFORMATION THAT NEEDS TO BE KEPT INSIDE OF ITS OWN 'VIEW', TEMP INFO CURRENTLY IN PLACE-->
+        <div id="userInfo">
+            <p id="links">📍<i> Miami Beach, FL </i>🔗<i> johndoe.com </i>📅<i> Joined February 2021</i></p>
+        </div>
+        <!--INFORMATION THAT NEEDS TO BE KEPT INSIDE OF ITS OWN 'VIEW', TEMP INFO CURRENTLY IN PLACE-->
+        <div id="profileBio">
+            <p>This will be their profile bio. There will be a 255 character cap. They can keep it short and sweet. </p>
+        </div>
+        <!--Will be the SAME no matter what, but buttons will DO DIFFERENT THINGS depending on VALUE OF USER-->
+        <div id="buttons">
+            <button type="button" routerLink="/profile">FOLLOW</button>
+            <button type="button" routerLink="/profile">CHAT</button>
+        </div>
+      </div>
+    </div>
+    <div class="column" style="background-color:rgb(255, 255, 255);">
+      <!--COMMENTS WILL GENERATE ON THIS COLUMN, nest COMMENT "OBJECTS" inside of ONE BIG COMMENT "CONTAINER". the container takes up space INSIDE THIS COLUMN. thats the logic.-->
+      <div id="commentColumn">
+          <!--SAMPLE "COMMENT BOX", in PRACTICE these will self generate with updated information. ...shunt them to a different view? yeah. utility.-->
+          <div id="commentBox">
+            <div id="smallInfo">
+                <div id="smallerUserImgBox">
+
+                </div>
+                <div id="userID">
+                    <h3>John Doe</h3>
+                    <h4>@john_doe</h4>
+                </div>  
+              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p> 
+            <div id="interactionColumn">
+                <p>1.7k Admires     527 Replies   7h</p>
+            </div>
+        </div>
+
+        <div id="commentBox">
+            <div id="smallInfo">
+                <div id="smallerUserImgBox">
+
+                </div>
+                <div id="userID">
+                    <h3>John Doe</h3>
+                    <h4>@john_doe</h4>
+                </div>  
+              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p> 
+            <div id="interactionColumn">
+                <p>1.7k Admires     527 Replies   7h</p>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
