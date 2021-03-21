@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Running on EC2 Instance
+1) `ssh -i /path/to/your/priv_key ubuntu@3.139.106.13`
+2) `cd angular-proj-frontend/`
+3) `ng serve --host 0.0.0.0`
+4) Naviagate to `3.139.106.13:4200`
